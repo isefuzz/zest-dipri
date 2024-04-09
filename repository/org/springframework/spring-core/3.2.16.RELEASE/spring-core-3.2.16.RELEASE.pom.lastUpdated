@@ -1,5 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Apr 09 17:50:08 CST 2024
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact org.springframework\:spring-core\:pom\:3.2.16.RELEASE from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/org/springframework/spring-core/3.2.16.RELEASE/spring-core-3.2.16.RELEASE.pom
-@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656208288
-http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656208682

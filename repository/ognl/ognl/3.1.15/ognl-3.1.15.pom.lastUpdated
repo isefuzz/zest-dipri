@@ -1,5 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Apr 09 17:48:25 CST 2024
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact ognl\:ognl\:pom\:3.1.15 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/ognl/ognl/3.1.15/ognl-3.1.15.pom
-@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656105205
-http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656105768

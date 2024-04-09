@@ -1,5 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Apr 09 17:48:49 CST 2024
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact org.apache.ant\:ant-parent\:pom\:1.10.2 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/org/apache/ant/ant-parent/1.10.2/ant-parent-1.10.2.pom
-@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656129040
-http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656129384

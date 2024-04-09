@@ -1,5 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Apr 09 17:49:32 CST 2024
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact com.pff\:java-libpst\:pom\:0.8.1 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/com/pff/java-libpst/0.8.1/java-libpst-0.8.1.pom
-@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656171840
-http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656172294

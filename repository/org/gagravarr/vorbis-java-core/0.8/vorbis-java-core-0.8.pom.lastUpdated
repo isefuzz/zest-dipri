@@ -1,5 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Apr 09 17:49:31 CST 2024
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact org.gagravarr\:vorbis-java-core\:pom\:0.8 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/org/gagravarr/vorbis-java-core/0.8/vorbis-java-core-0.8.pom
-@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656170708
-http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656171086

@@ -1,5 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Apr 09 17:49:43 CST 2024
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact org.slf4j\:jul-to-slf4j\:pom\:1.7.24 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/org/slf4j/jul-to-slf4j/1.7.24/jul-to-slf4j-1.7.24.pom
-@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656183230
-http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656183528
