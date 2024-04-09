@@ -12,13 +12,7 @@
     <name>jqf-examples</name>
     <description>JQF: Feedback-directed Quickcheck for Java - Sample generators and benchmark tests</description>
 
-    <repositories>
-        <repository>
-            <id>lila-maven</id>
-            <name>lichess/scalachess artifacts</name>
-            <url>https://raw.githubusercontent.com/ornicar/lila-maven/master</url>
-        </repository>
-    </repositories>
+    
 
     <dependencies>
         <dependency>
