@@ -5,3 +5,4 @@ COPY ./repository /usr/share/maven/ref/repository
 
 # clone zest-dipri
 WORKDIR /root/zest-dipri
+RUN mvn clean install
