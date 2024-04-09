@@ -1,4 +1,4 @@
-FROM maven:3.8.5-openjdk-17
+FROM maven:3.8.4-openjdk-17
 
 ADD ./repository /root/.m2/repository
 
