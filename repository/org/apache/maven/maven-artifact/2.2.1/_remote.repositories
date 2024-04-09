@@ -1,4 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:28:46 CST 2024
-maven-artifact-2.2.1.jar>aliyun=
-maven-artifact-2.2.1.pom>aliyun=
+#Tue Apr 09 17:44:10 CST 2024
+maven-artifact-2.2.1.pom>alimaven=
+maven-artifact-2.2.1.jar>alimaven=

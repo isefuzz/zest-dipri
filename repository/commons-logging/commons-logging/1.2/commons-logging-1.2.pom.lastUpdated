@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:55:22 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712544922943
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712544922636
+#Tue Apr 09 17:50:00 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact commons-logging\:commons-logging\:pom\:1.2 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656199703
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656200126

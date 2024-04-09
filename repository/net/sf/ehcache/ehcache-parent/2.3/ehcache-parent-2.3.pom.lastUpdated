@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:53:54 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712544834370
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712544834023
+#Tue Apr 09 17:49:53 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact net.sf.ehcache\:ehcache-parent\:pom\:2.3 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/net/sf/ehcache/ehcache-parent/2.3/ehcache-parent-2.3.pom
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656192686
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656193000

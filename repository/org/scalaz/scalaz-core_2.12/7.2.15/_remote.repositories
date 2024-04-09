@@ -1,4 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 11:02:10 CST 2024
-scalaz-core_2.12-7.2.15.pom>aliyun=
-scalaz-core_2.12-7.2.15.jar>aliyun=
+#Tue Apr 09 18:06:41 CST 2024
+scalaz-core_2.12-7.2.15.jar>alimaven=
+scalaz-core_2.12-7.2.15.pom>alimaven=

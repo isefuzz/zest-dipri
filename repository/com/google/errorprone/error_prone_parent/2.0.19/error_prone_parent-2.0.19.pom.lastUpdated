@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:37:27 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712543847049
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712543846763
+#Tue Apr 09 17:48:59 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact com.google.errorprone\:error_prone_parent\:pom\:2.0.19 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/com/google/errorprone/error_prone_parent/2.0.19/error_prone_parent-2.0.19.pom
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656138664
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656139103

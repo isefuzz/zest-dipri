@@ -1,5 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:27:36 CST 2024
-@default-Central-https\://repo.maven.org/maven2/.lastUpdated=1712543127525
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712543256546
-https\://repo.maven.org/maven2/.error=Could not transfer artifact org.apache.maven.plugins\:maven-clean-plugin\:pom\:2.5 from/to Central (https\://repo.maven.org/maven2)\: Transfer failed for https\://repo.maven.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom

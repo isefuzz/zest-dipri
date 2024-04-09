@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:39:05 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712543945404
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712543945058
+#Tue Apr 09 17:49:05 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact com.google.auto\:auto-parent\:pom\:5 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/com/google/auto/auto-parent/5/auto-parent-5.pom
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656144773
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656145101

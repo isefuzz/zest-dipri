@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:40:01 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712544001567
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712544001269
+#Tue Apr 09 17:49:12 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact org.apache.tika\:tika-core\:pom\:1.18 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/org/apache/tika/tika-core/1.18/tika-core-1.18.pom
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656152295
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656152655

@@ -1,4 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:28:46 CST 2024
-slf4j-api-1.5.6.pom>aliyun=
-slf4j-api-1.5.6.jar>aliyun=
+#Tue Apr 09 17:44:10 CST 2024
+slf4j-api-1.5.6.jar>alimaven=
+slf4j-api-1.5.6.pom>alimaven=

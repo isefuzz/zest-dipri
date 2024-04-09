@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:42:52 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712544172275
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712544171938
+#Tue Apr 09 17:49:29 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact com.rometools\:rome-utils\:pom\:1.5.1 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/com/rometools/rome-utils/1.5.1/rome-utils-1.5.1.pom
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656169327
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656169880

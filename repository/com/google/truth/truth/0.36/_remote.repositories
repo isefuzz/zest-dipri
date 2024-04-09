@@ -1,4 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 11:02:10 CST 2024
-truth-0.36.jar>aliyun=
-truth-0.36.pom>aliyun=
+#Tue Apr 09 18:00:53 CST 2024
+truth-0.36.pom>alimaven=
+truth-0.36.jar>alimaven=

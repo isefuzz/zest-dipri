@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:55:12 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712544912743
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712544912526
+#Tue Apr 09 17:49:57 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact org.apache.httpcomponents\:httpclient\:pom\:4.5.4 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/org/apache/httpcomponents/httpclient/4.5.4/httpclient-4.5.4.pom
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656196677
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656197052

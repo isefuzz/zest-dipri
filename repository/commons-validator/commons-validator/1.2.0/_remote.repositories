@@ -1,4 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:29:40 CST 2024
-commons-validator-1.2.0.jar>aliyun=
-commons-validator-1.2.0.pom>aliyun=
+#Tue Apr 09 17:45:40 CST 2024
+commons-validator-1.2.0.jar>alimaven=
+commons-validator-1.2.0.pom>alimaven=

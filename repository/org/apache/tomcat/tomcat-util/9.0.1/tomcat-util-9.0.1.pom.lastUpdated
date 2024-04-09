@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:32:21 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712543541235
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712543540877
+#Tue Apr 09 17:48:31 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact org.apache.tomcat\:tomcat-util\:pom\:9.0.1 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/org/apache/tomcat/tomcat-util/9.0.1/tomcat-util-9.0.1.pom
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656111012
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656111436

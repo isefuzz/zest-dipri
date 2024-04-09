@@ -4,4 +4,4 @@ ADD ./repository /root/.m2/repository
 
 # clone zest-dipri
 WORKDIR /root
-RUN git clone https://github.com/isefuzz/zest-dipri.git && cd zest-dipri
+RUN git clone https://github.com/isefuzz/zest-dipri.git && cd zest-dipri && mvn clean install

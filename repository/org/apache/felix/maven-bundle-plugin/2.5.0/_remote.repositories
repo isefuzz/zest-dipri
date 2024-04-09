@@ -1,4 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:30:13 CST 2024
-maven-bundle-plugin-2.5.0.pom>aliyun=
-maven-bundle-plugin-2.5.0.jar>aliyun=
+#Tue Apr 09 17:46:48 CST 2024
+maven-bundle-plugin-2.5.0.jar>alimaven=
+maven-bundle-plugin-2.5.0.pom>alimaven=

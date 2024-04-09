@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:44:15 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712544255724
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712544255381
+#Tue Apr 09 17:49:37 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact org.apache.cxf\:cxf-rt-frontend-jaxrs\:pom\:3.0.16 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/org/apache/cxf/cxf-rt-frontend-jaxrs/3.0.16/cxf-rt-frontend-jaxrs-3.0.16.pom
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656177072
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656177463

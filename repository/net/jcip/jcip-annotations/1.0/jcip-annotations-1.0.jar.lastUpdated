@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 11:02:10 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712545330747
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712545318662
+#Tue Apr 09 18:00:53 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact net.jcip\:jcip-annotations\:jar\:1.0 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656784490
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656853608

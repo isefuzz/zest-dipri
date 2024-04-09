@@ -1,4 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:30:27 CST 2024
-wagon-ssh-common-2.0.jar>aliyun=
-wagon-ssh-common-2.0.pom>aliyun=
+#Tue Apr 09 17:47:12 CST 2024
+wagon-ssh-common-2.0.pom>alimaven=
+wagon-ssh-common-2.0.jar>alimaven=

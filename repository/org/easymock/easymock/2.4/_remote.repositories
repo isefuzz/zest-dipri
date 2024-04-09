@@ -1,4 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:30:13 CST 2024
-easymock-2.4.jar>aliyun=
-easymock-2.4.pom>aliyun=
+#Tue Apr 09 17:46:48 CST 2024
+easymock-2.4.jar>alimaven=
+easymock-2.4.pom>alimaven=

@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:31:48 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712543508412
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712543508190
+#Tue Apr 09 17:48:28 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact commons-io\:commons-io\:pom\:2.2 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/commons-io/commons-io/2.2/commons-io-2.2.pom
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656107707
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656108129

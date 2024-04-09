@@ -1,4 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:31:04 CST 2024
-commons-digester-1.8.jar>aliyun=
-commons-digester-1.8.pom>aliyun=
+#Tue Apr 09 17:48:16 CST 2024
+commons-digester-1.8.pom>alimaven=
+commons-digester-1.8.jar>alimaven=

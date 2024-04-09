@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:38:35 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712543915048
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712543914828
+#Tue Apr 09 17:49:01 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact com.google.guava\:guava\:pom\:23.4-android from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/com/google/guava/guava/23.4-android/guava-23.4-android.pom
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656141576
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656141890

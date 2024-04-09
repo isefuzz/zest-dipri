@@ -1,4 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:29:53 CST 2024
-surefire-junit4-2.22.2.pom>aliyun=
-surefire-junit4-2.22.2.jar>aliyun=
+#Tue Apr 09 17:46:09 CST 2024
+surefire-junit4-2.22.2.jar>alimaven=
+surefire-junit4-2.22.2.pom>alimaven=

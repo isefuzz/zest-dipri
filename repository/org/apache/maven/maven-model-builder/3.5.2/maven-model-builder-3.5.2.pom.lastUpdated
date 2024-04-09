@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:32:40 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712543560999
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712543560714
+#Tue Apr 09 17:48:35 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact org.apache.maven\:maven-model-builder\:pom\:3.5.2 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/org/apache/maven/maven-model-builder/3.5.2/maven-model-builder-3.5.2.pom
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656115296
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656115610

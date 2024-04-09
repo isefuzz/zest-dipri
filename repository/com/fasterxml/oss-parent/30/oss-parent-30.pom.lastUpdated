@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:57:25 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712545045448
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712545045234
+#Tue Apr 09 17:50:15 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact com.fasterxml\:oss-parent\:pom\:30 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/com/fasterxml/oss-parent/30/oss-parent-30.pom
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656214825
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656215264

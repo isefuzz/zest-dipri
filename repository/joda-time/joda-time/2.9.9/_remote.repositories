@@ -1,4 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 11:02:10 CST 2024
-joda-time-2.9.9.jar>aliyun=
-joda-time-2.9.9.pom>aliyun=
+#Tue Apr 09 18:06:41 CST 2024
+joda-time-2.9.9.pom>alimaven=
+joda-time-2.9.9.jar>alimaven=

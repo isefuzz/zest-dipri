@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:35:08 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712543708845
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712543708642
+#Tue Apr 09 17:48:48 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact org.sonatype.oss\:oss-parent\:pom\:4 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/org/sonatype/oss/oss-parent/4/oss-parent-4.pom
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656127868
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656128227

@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 11:02:10 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712545330744
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712545318658
+#Tue Apr 09 18:00:53 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact com.google.truth.extensions\:truth-java8-extension\:jar\:0.37 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/com/google/truth/extensions/truth-java8-extension/0.37/truth-java8-extension-0.37.jar
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656784475
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656853561

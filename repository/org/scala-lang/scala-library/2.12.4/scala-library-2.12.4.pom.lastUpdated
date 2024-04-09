@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:39:36 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712543976411
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712543976103
+#Tue Apr 09 17:56:36 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact org.scala-lang\:scala-library\:pom\:2.12.4 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4.pom
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656594966
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656596194

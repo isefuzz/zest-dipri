@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:38:32 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712543912898
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712543912383
+#Tue Apr 09 17:49:01 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact com.google.truth\:truth-parent\:pom\:0.37 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/com/google/truth/truth-parent/0.37/truth-parent-0.37.pom
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656141152
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656141576

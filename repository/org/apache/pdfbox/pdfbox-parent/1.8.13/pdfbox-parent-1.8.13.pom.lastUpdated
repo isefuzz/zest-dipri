@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 08 10:41:25 CST 2024
-https\://maven.aliyun.com/repository/public/.lastUpdated=1712544085045
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=
-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712544084574
+#Tue Apr 09 17:49:21 CST 2024
+https\://raw.githubusercontent.com/ornicar/lila-maven/master/.error=Could not transfer artifact org.apache.pdfbox\:pdfbox-parent\:pom\:1.8.13 from/to lila-maven (https\://raw.githubusercontent.com/ornicar/lila-maven/master)\: transfer failed for https\://raw.githubusercontent.com/ornicar/lila-maven/master/org/apache/pdfbox/pdfbox-parent/1.8.13/pdfbox-parent-1.8.13.pom
+@default-lila-maven-https\://raw.githubusercontent.com/ornicar/lila-maven/master/.lastUpdated=1712656161400
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1712656161870
