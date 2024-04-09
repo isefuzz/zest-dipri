@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>edu.berkeley.cs.jqf</groupId>
+  <artifactId>jqf-instrument</artifactId>
+  <versioning>
+    <versions>
+      <version>2.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20240408022940</lastUpdated>
+  </versioning>
+</metadata>

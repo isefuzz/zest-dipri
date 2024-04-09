@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>jgraph</groupId>
+    <artifactId>jgraph</artifactId>
+    <version>5.13.0.0</version>
+    <packaging>jar</packaging>
+    <name>JGraph</name>
+    <url>http://www.jgraph.com/</url>
+    <description>Java Graph Visualization and Layout component</description>
+
+    <licenses>
+        <license>
+            <name>BSD</name>
+        </license>
+    </licenses>
+</project>

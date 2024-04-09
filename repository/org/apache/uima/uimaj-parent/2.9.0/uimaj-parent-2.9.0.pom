@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one
+   or more contributor license agreements.  See the NOTICE file
+   distributed with this work for additional information
+   regarding copyright ownership.  The ASF licenses this file
+   to you under the Apache License, Version 2.0 (the
+   "License"); you may not use this file except in compliance
+   with the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing,
+   software distributed under the License is distributed on an
+   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+   KIND, either express or implied.  See the License for the
+   specific language governing permissions and limitations
+   under the License.
+-->
+
+<!-- This pom serves as the the UIMA Java SDK (uimaj) common parent pom,
+     and may include overrides to the project-wide parent-pom.
+     Over time, things in this pom which apply to
+     other projects within UIMA are migrated to the
+     project-wide parent pom.
+ -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.apache.uima</groupId>
+    <artifactId>parent-pom</artifactId>
+    <relativePath />
+    <version>10</version>
+  </parent>
+
+  <groupId>org.apache.uima</groupId>
+  <artifactId>uimaj-parent</artifactId>
+  <packaging>pom</packaging>
+  <version>2.9.0</version>
+  <name>Apache UIMA Java SDK: ${project.artifactId}</name>
+  <description>The common parent pom for the uimaj SDK</description>
+  <url>${uimaWebsiteUrl}</url>
+
+  <!-- Special inheritance note
+       even though the <scm> element that follows is exactly the
+       same as those in super poms, it cannot be inherited because
+       there is some special code that computes the connection elements
+       from the chain of parent poms, if this is omitted.
+
+       Keeping this a bit factored allows cutting/pasting the <scm>
+       element, and just changing the following two properties -->
+  <scm>
+    <connection>
+      scm:svn:http://svn.apache.org/repos/asf/uima/uimaj/tags/uimaj-2.9.0/uimaj-parent
+    </connection>
+    <developerConnection>
+      scm:svn:https://svn.apache.org/repos/asf/uima/uimaj/tags/uimaj-2.9.0/uimaj-parent
+    </developerConnection>
+    <url>
+      http://svn.apache.org/viewvc/uima/uimaj/tags/uimaj-2.9.0/uimaj-parent
+    </url>
+  </scm>
+
+  <!-- The repositories and pluginRepositories section is duplicated from
+       the parent pom one, and adds the Apache Snapshot Nexus repository
+       where UIMA snapshots are deployed.  This is needed if for instance,
+       a project depends on some new SNAPSHOT level of a build tool, 
+       where the users hasn't checked out the build tooling.
+       
+       This allows maven to find the snapshots when looking for the parent of
+       this pom -->
+  <repositories>
+    <repository>
+      <id>eclipsePlugins</id>
+      <name>Eclipse components</name>
+      <layout>default</layout>
+      <url>http://repo1.maven.org/eclipse</url>
+      
+      <releases>
+        <updatePolicy>never</updatePolicy>
+        <checksumPolicy>fail</checksumPolicy>
+      </releases>
+      
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+
+    <!-- modify central repository access:
+         Turn on checksum checking-->
+    <repository>
+      <id>central</id>
+      <name>Maven Repository Switchboard</name>
+      <layout>default</layout>
+      <url>http://repo1.maven.org/maven2</url>
+
+      <releases>
+        <enabled>true</enabled>
+        <checksumPolicy>fail</checksumPolicy>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+
+    </repository>
+    
+    <repository>
+      <id>apache.snapshots</id>
+      <name>Apache Snapshot Repository</name>
+      <url>http://repository.apache.org/snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+    </repository>    
+    
+  </repositories>
+  
+  <pluginRepositories>
+    <pluginRepository>
+      <id>apache.snapshots.plugins</id>
+      <name>Apache Snapshot Repository - Maven plugins</name>
+      <url>http://repository.apache.org/snapshots</url>
+      <layout>default</layout>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+        <checksumPolicy>fail</checksumPolicy>
+        <updatePolicy>never</updatePolicy>        
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
+  
+  <properties>
+    <uimaScmRoot>uimaj</uimaScmRoot>
+    <uimaScmProject>${project.artifactId}</uimaScmProject>
+    <!-- 
+     BACKWARD_COMPATIBLE_IMPLEMENTER - patch version (=.=.+)
+     BACKWARD_COMPATIBLE_USER        - minor version (=.+.0)
+     NON_BACKWARD_COMPATIBLE         - major version (+.0.0)
+     -->
+    <compat.level>BACKWARD_COMPATIBLE_USER</compat.level>
+    <compat.previous.version>2.8.1</compat.previous.version>
+
+    <!-- 
+     Configuring settings is best done through default properties that multiple plugins.
+     Local configurations within plugins should be avoided. Where plugins do not pick up default
+     properties already, they should be injected manually into the plugins. 
+    -->    
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.surefire.heap>512m</maven.surefire.heap>
+    <maven.surefire.argLine />
+    <jacoco.argLine />
+  </properties>
+  
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.1</version>
+          <configuration>
+            <source>${maven.compiler.source}</source>
+            <target>${maven.compiler.target}</target>
+          </configuration>
+        </plugin>
+     
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-javadoc-plugin</artifactId> 
+          <executions>
+            <execution>
+              <id>attach-javadocs</id>
+              <configuration>
+                <source>${maven.compiler.source}</source>
+              </configuration> 
+            </execution>
+            <execution>
+              <id>default-cli</id>  <!-- Jenkins runs this apparently 3/2015 -->
+              <configuration>
+                <source>${maven.compiler.source}</source>
+              </configuration> 
+            </execution>
+          </executions>
+        </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.19.1</version>
+          <configuration>
+            <argLine>@{jacoco.argLine} -Xmx${maven.surefire.heap} -Xms${maven.surefire.heap} ${maven.surefire.argLine}</argLine>
+          </configuration>
+        </plugin>
+        
+        <!-- Code quality checking plugins mostly used for CI builds -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-pmd-plugin</artifactId>
+          <version>3.6</version>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>findbugs-maven-plugin</artifactId>
+          <version>3.0.3</version>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>cobertura-maven-plugin</artifactId>
+          <version>2.7</version>
+        </plugin>               
+        <plugin>
+          <groupId>org.jacoco</groupId>
+          <artifactId>jacoco-maven-plugin</artifactId>
+          <version>0.7.6.201602180812</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+    <plugins>
+      <plugin>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>enforce-versions</id>
+            <configuration>
+              <rules>
+                <requireMavenVersion>
+                  <version>3.0</version>
+                </requireMavenVersion>
+                <requireJavaVersion>
+                  <version>${maven.compiler.target}</version>
+                </requireJavaVersion>
+              </rules>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  <profiles>
+    <profile>
+      <id>pmd</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-pmd-plugin</artifactId>
+            <executions>
+              <execution>
+                <phase>package</phase>
+                <goals>
+                  <goal>cpd</goal>
+                  <goal>pmd</goal>
+                </goals>
+                <configuration>
+                  <sourceEncoding>${project.build.sourceEncoding}</sourceEncoding>
+                  <targetJdk>${maven.compiler.target}</targetJdk>
+                  <linkXRef>false</linkXRef>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>findbugs</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>findbugs-maven-plugin</artifactId>
+            <executions>
+              <execution>
+                <phase>package</phase>
+                <goals>
+                  <goal>findbugs</goal>
+                </goals>
+                <configuration>
+                  <findbugsXmlOutput>true</findbugsXmlOutput>
+                  <xmlOutput>true</xmlOutput>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>cobertura</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>cobertura-maven-plugin</artifactId>
+            <executions>
+              <execution>
+                <phase>package</phase>
+                <goals>
+                  <goal>cobertura</goal>
+                </goals>
+                <configuration>
+                  <formats>
+                    <format>xml</format>
+                  </formats>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>jacoco</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <configuration>
+              <excludes>
+                <!-- Duplicates on classpath cause an exception in JaCoCo report -->
+                <exclude>**/org/apache/uima/examples/SourceDocumentInformation*</exclude>
+                <exclude>**/org/apache/uima/examples/SourceDocumentInformation_Type*</exclude>
+              </excludes>
+            </configuration>
+            <executions>
+              <execution>
+                <id>default-prepare-agent</id>
+                <goals>
+                  <goal>prepare-agent</goal>
+                </goals>
+                <configuration>
+                  <propertyName>jacoco.argLine</propertyName>
+                </configuration>
+              </execution>
+              <execution>
+                <id>default-report</id>
+                <phase>prepare-package</phase>
+                <goals>
+                  <goal>report</goal>
+                </goals>
+              </execution>
+              <execution>
+                <id>default-check</id>
+                <goals>
+                  <goal>check</goal>
+                </goals>
+                <configuration>
+                  <rules />
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>enforce-compatibility</id>
+      <activation>
+        <file>
+          <exists>marker-file-identifying-api-compatibility-check</exists>
+        </file>
+      </activation>
+      <build>
+        <pluginManagement>
+          <plugins>
+            <plugin>
+              <artifactId>maven-enforcer-plugin</artifactId>
+              <dependencies>
+                <dependency>
+                  <groupId>org.semver</groupId>
+                  <artifactId>enforcer-rule</artifactId>
+                  <version>0.9.33</version>
+                </dependency>
+              </dependencies>
+              <executions>
+                <execution>
+                  <id>enforce-compatibility</id>
+                  <phase>verify</phase>
+                  <goals>
+                    <goal>enforce</goal>
+                  </goals>
+                  <configuration>
+                    <rules>
+                      <requireBackwardCompatibility implementation="org.semver.enforcer.RequireBackwardCompatibility">
+                        <previousVersion>${compat.previous.version}</previousVersion>
+                        <dumpDetails>true</dumpDetails>
+                        <compatibilityType>${compat.level}</compatibilityType>
+                        <excludes>
+                          <exclude>**/impl/**/*</exclude>
+                          <exclude>**/internal/**/*</exclude>
+                          <exclude>org/apache/uima/cas/CASRuntimeException</exclude>
+                          <exclude>org/apache/uima/cas/SerialFormat</exclude>
+                          <exclude>org/apache/uima/util/CasIOUtils</exclude>
+                          <exclude>org/apache/uima/util/CasLoadMode</exclude>
+
+                          <!-- UIMA-4565 Exclude CAS from check for 2.9.0 - remove after 2.9.0 release  -->
+                          <exclude>org/apache/uima/cas/CAS</exclude>
+                          <!-- unfortunately, due to some bug, the above exclude 
+                               seems to exclude everything...  -->
+                        </excludes>
+                      </requireBackwardCompatibility>
+                    </rules>
+                  </configuration>
+                </execution>
+              </executions>
+            </plugin>
+          </plugins>
+        </pluginManagement>
+      </build>
+    </profile>
+  </profiles>
+</project>
