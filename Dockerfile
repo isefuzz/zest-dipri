@@ -1,6 +1,6 @@
 FROM maven:3.8.4-openjdk-17
 
-ADD ./repository /root/.m2/repository
+ADD ./repository /usr/share/maven/ref/repository
 
 # clone zest-dipri
 WORKDIR /root
