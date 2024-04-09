@@ -1,5 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Apr 09 19:52:25 CST 2024
-jqf-fuzz-2.0-SNAPSHOT.pom>=
-jqf-fuzz-2.0-SNAPSHOT.jar>=
-jqf-fuzz-2.0-SNAPSHOT-zest-cli.jar>=
