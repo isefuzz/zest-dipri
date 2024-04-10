@@ -16,12 +16,35 @@ The above picture shows the high-level workflow of DiPri. Specifically, DiPri sp
 - `PERIODICAL` mode: prioritizes periodically with a preset duration.
 - `ADAPTIVE` mode: prioritizes when all last prioritized seeds are picked for input generation.
 
-### Installing and Running Zest-DiPri
+### Install and Run Zest-DiPri
 
 you can use the following instructions to install and run Zest-DiPri:
 
 ```shell
 git clone https://github.com/isefuzz/zest-dipri.git
 mvn clean install
-mvn jqf:fuzz -Dclass=<fully-qualified-class-name> -Dmethod=<method-name> [dipri-configuration]
+mvn jqf:fuzz -Dclass=<fully-qualified-class-name> -Dmethod=<method-name> [dipri-configuration...]
 ```
+
+### Run with Docker
+
+prerequisites
+
+```
+mvn clean install
+chmod +x ./dipri.sh
+chmod +x ./zest.sh
+```
+
+Run a set of experiments: 10 rounds, 24 hours per round
+
+```
+./dipri.sh <name> <fully-qualified-class-name> <method-name> <path-to-the-result> <mode> 0 9
+```
+
+Run an experiment
+
+```
+mvn jqf:fuzz -Dclass=<fully-qualified-class-name> -Dmethod=<method-name> [dipri-configuration...]
+```
+
