@@ -5,4 +5,4 @@ COPY ./repository /usr/share/maven/ref/repository
 COPY ./plot_data.tar.gz /root/zest-dipri/result-handle
 
 WORKDIR /root/zest-dipri
-RUN tar -xzvf ./result-handle/plot_data.tar.gz
+RUN cd ./result-handle && tar -xzvf ./plot_data.tar.gz
