@@ -81,3 +81,24 @@ cd ./examples
 mvn jqf:fuzz -Dclass=edu.berkeley.cs.jqf.examples.bcel.ParserTest -Dmethod=testWithGenerator -Dtime=5m
 ```
 
+### Example: Running `ant` for 5 minutes
+
+```shell
+# Building zest-dipri using maven
+git clone https://github.com/isefuzz/zest-dipri.git
+cd ./zest-dipri
+# May install maven first. The experimental version is 3.6.3.
+#apt install -y maven
+mvn clean install
+# Fuzz with zest-dipri for 5 minutes.
+export TESTCLASS=edu.berkeley.cs.jqf.examples.ant.ProjectBuilderTest
+export TESTMETHOD=testWithGenerator
+cd ./examples
+mvn jqf:fuzz \
+-Dclass=$TESTCLASS \
+-Dmethod=$TESTMETHOD \
+-Dtime=5m \
+-Dmetric=Hamming \
+-Dadaptive=true
+```
+
