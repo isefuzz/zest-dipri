@@ -106,7 +106,7 @@ mvn jqf:fuzz \
 
 **Fatal error compiling: invalid flag: --release**
 
-Use `mvn -V` to check if the java version used by Maven is jdk9 or above. If not, please upgrade your Java version to JDK9 or above.
+Use `mvn -V` to check if the java version used by Maven is jdk11 or above. If not, please upgrade your Java version to jdk11 or above.
 
 **Error when building jqf-examples (org.lichess:scalachess_2.12)**
 
