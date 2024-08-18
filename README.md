@@ -1,8 +1,8 @@
-## Zest-DiPri: Zest with Distance-based Seed Prioritization.
+# Zest-DiPri: Zest with Distance-based Seed Prioritization.
 
 This is the Java implementation of our paper: *DiPri: Distance-based Seed Prioritization for Greybox Fuzzing*. You can read our [FUZZING'23 paper](https://dl.acm.org/doi/10.1145/3605157.3605172) or TOSEM paper (under reviewed  at the time this document is updated) to learn more about the basic hypothesis and approach designs of DiPri. This prototype is essentially an extension of the famous Java fuzz testing platform JQF with Zest as the fuzzing algorithm. To learn more about JQF+Zest, please refer to their [JQF GitHub repo](https://github.com/rohanpadhye/JQF).
 
-### Approach and Configurations
+## Approach and Configurations
 
 ![overview](./fig/dipri-overview.png)
 
@@ -16,7 +16,7 @@ The above picture shows the high-level work flow of DiPri. Specifically, DiPri s
 - `PERIODICAL` mode: prioritizes periodically with a preset duration.
 - `ADAPTIVE` mode: prioritizes when all last prioritized seeds are picked for input generation.
 
-### Fuzz Targets
+## Fuzz Targets
 
 The following table shows the selected fuzz targets and their version information in our paper's Java implementation:
 
@@ -28,7 +28,7 @@ The following table shows the selected fuzz targets and their version informatio
 | T28  | closure | com.google.javascript.closure-compiler | v20180204 | JavaScript    |
 | T29  | rhino   | org.mozilla.rhino                      | 1.7.8     | JavaScript    |
 
-### Install and Run Zest-DiPri
+## Install and Run Zest-DiPri
 
 you can use the following instructions to install and run Zest-DiPri:
 
@@ -45,7 +45,7 @@ for example:
 mvn jqf:fuzz -Dclass=edu.berkeley.cs.jqf.examples.bcel.ParserTest -Dmethod=testWithGenerator
 ```
 
-### Run with Docker
+## Run with Docker
 
 **prerequisites**
 
@@ -81,7 +81,7 @@ cd ./examples
 mvn jqf:fuzz -Dclass=edu.berkeley.cs.jqf.examples.bcel.ParserTest -Dmethod=testWithGenerator -Dtime=5m
 ```
 
-### Example: Running `ant` for 5 minutes
+## Example: Running `ant` for 5 minutes
 
 ```shell
 # Building zest-dipri using maven
@@ -102,3 +102,12 @@ mvn jqf:fuzz \
 -Dadaptive=true
 ```
 
+## Common Issues and Solutions
+
+**Fatal error compiling: invalid flag: --release**
+
+Use `mvn -V` to check if the java version used by Maven is jdk9 or above. If not, please upgrade your Java version to JDK9 or above.
+
+**Error when building jqf-examples (org.lichess:scalachess_2.12)**
+
+The reason for this issue may be that your mirror repository configured in maven settings. xml has overwritten the mirror repository configured for lichess in pom.xml of jqf-examples. You can refer to the following link: https://github.com/rohanpadhye/jqf/issues/29.
